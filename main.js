@@ -28,13 +28,6 @@ WebFontConfig = {
     $(function () {
         var s = $(m + '>a');
 
-        function getMenuItemHash(h) {
-            if (h.match('^#p=')) {
-                return '#' + h.substring(3);
-            }
-            return null;
-        }
-
         function deactivatePage(p) {
             $(p).find('iframe').each(function () {
                 if ($(this).attr('data-src'))
