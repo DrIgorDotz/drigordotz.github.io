@@ -143,6 +143,7 @@ WebFontConfig = {
 
 ga('create', 'UA-38710251-2', 'auto');
 ga('send', 'pageview');
+ga('set', 'anonymizeIp', true);
 
 /*** Google+ ***/
 
